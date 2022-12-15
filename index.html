@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <style>
+        html {scroll-behavior: smooth;}
+    </style>
+</head>
+
+<body>
+    <!--Başlangıç-->
+    <header id="header">
+        <div class="header">
+            <div class="container">
+                <div class="header-navbar">
+                    <div class="header-logo">
+                        <h2>Jacobse_</h2>
+                    </div>
+                    <div class="header-menu">
+                        <ul id="menu-items">
+                            <li><a href="#kimim">Ben Kimim</a></li>
+                            <li><a href="#tanitim">Kanal Tanıtımı</a></li>
+                            <li><a href="#iletisim">İletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h1><span class="first-letter">H</span>oşgeldiniz</h1>
+                    <h3>Beni Tanımaya Hemen Başlayabilirsin..</h3>
+                    <a href="#kimim" class="btn-welcome">Haydi!</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header Bitis-->
+    <!--Ben Kimim Başlangıç-->
+    <section id="kimim">
+        <div class="kimim">
+            <div class="container">
+                <div class="kimim-baslik">
+                    <h2>Ben Kimim</h2>
+                </div>
+                <div class="kimim-yorum">
+                    <div class="kimim-img anime-left">
+                        <img src="dc logo 2.png" alt="logo">
+                    </div>
+                    <div class="kimim-text anime-right">
+                        <h4>Benim Hikayem</h4>
+                        <div id="sharp">
+                            <i class="fa-solid fa-asterisk"></i>
+                        </div>
+                        <p>Merhabalar, ismim Emirhan. 21 yaşındayım. Çukurova Üniversitesi Diş Protez Teknolojisi bölümü okuyorum. Yaklaşık 10 yıldır çeşitli oyunlar oynuyorum.<br>
+                         Bu 10 yıllık süreçte kazandığım çeşitli oyun deneyimlerini sizlere aktarmak için buradayım.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ben Kimim Bitiş-->
+    <!--Kanal Tanıtım Baslangic-->
+
+    <section id="tanitim">
+        <div class="tanitim">
+            <div class="container">
+                <div class="tanitim-baslik">
+                    <h2>Kanal Tanıtımı</h2>
+                </div>
+                <div class="tanitim-yorum">
+                    <div class="tanitim-img anime-left">
+                        <img src="logo1.png" alt="logo">
+                    </div>
+                    <div class="tanitim-text anime-right">
+                        <h4>Tanıtım</h4>
+                        <div id="sharp">
+                            <i class="fa-solid fa-asterisk"></i>
+                        </div>
+                        <p>Yaklaşık 2-3 aydır twitch platformunda yayın yapıyorum. Sizleri mutlu edebilmek ve sizlerle birlikte keyifli vakit geçirebilmek için girdiğim bu yola oynadığım oyunları kayıt altına alıyor ve
+                        sizlerle paylaşıyorum. Yayında Oynadığım oyunlar: League Of Legends - Metin 2- Call Of Duty Warzone 2 gibi bir çok oyun..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Kanal Tanıtım Bitiş-->
+    <!--Ekip Baslangic-->
+
+    <section id="iletisim">
+        <div class="iletisim">
+            <div class="container">
+                <div class="page-title">
+                <h2>İletişim Adresleri</h>
+                </div>
+            <div class="mail">
+                <div class="mail-item anime-top">
+                    <a href="https://www.twitch.tv/jacobse_" target="blank"><img src="twitch.png" alt="" width="70">
+                    </a>
+                    
+                </div>
+                <div class="mail-item anime-bottom">
+                    <img src="mail.png" alt="" width="60">
+                    <p>tremirhan1231@gmail.com</p>
+                </div>
+                <div class="mail-item anime-top">
+                    <a href="https://discord.gg/PDT3PwxGdH" target="blank">
+                        <img src="dclogo.png" alt="" width="70">
+                    </a>                  
+                </div>
+            </div>
+            <div class="yukari">
+                <a href="#header" class="btn-welcome1">Yukarıya!</a>
+            </div>
+            <div class="footer">
+                <p>Designed By Furkan_ozd</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <script>
+        window.sr=ScrollReveal();
+
+        sr.reveal('.anime-left',{
+            origin:'left',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        }
+        )
+         window.sr=ScrollReveal();
+
+        sr.reveal('.anime-right',{
+            origin:'right',
+            duration:1000,
+            distance:'25rem',
+            delay:600
+        }
+        )
+         window.sr=ScrollReveal();
+
+        sr.reveal('.anime-top',{
+            origin:'top',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        }
+        )
+         window.sr=ScrollReveal();
+
+        sr.reveal('.anime-bottom',{
+            origin:'bottom',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        }
+        )
+
+    </script>
+
+
+</body>
+</html>
